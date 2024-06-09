@@ -1,0 +1,197 @@
+html{
+    scroll-behavior: smooth;
+    scroll-timeline:initial ;
+    overflow-x: hidden;
+    font-size: 1em; 
+    transition: 1s all;
+  }
+  href{
+    transition: 1s;
+  }
+    #bg1{
+        background-repeat: no-repeat;
+        width: 100%;
+        left: 0px;
+        padding: 10px;
+        right: 20px;
+        background-image: url(images/bg_1.jpg);
+        background-size: 100% 100%;
+    height: 750px;
+    position: relative;
+    }
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+   
+    .Place{
+        font-size: 30px;
+        color: white;
+        margin-left: 5%;
+    }
+    #st{
+        color:gray;
+        font-family:Arial, Helvetica, sans-serif;
+        transition: 0.5s;
+        }
+        #st:hover{
+color: white;
+transition: 0.5s;
+
+        }
+        #btn1{
+            width: 340px;
+            background-color:rgb(0, 202, 76);;
+            border: none;
+            margin-top: 2%;
+            margin-left: -80px;
+            font-size: 20px;
+            height: 50px;
+            transition: 0.5s;
+        }
+        #btn1:hover{
+            background-color: rgb(3, 164, 65);
+            transition: 0.5s;
+        }
+    #photo{
+        background-image: url(images/person_1.jpg);
+        width: 120px;height: 120px;
+        background-size: contain;
+        position: relative;
+        left: 44%;
+        border-radius: 50%;
+        
+    }
+.b{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.422);
+  position: absolute;
+  margin: 0px;
+  top: 0px;
+  left: -1px;
+}
+   #col1{
+background-image: url(images/img_1.jpg);
+background-size: cover;
+cursor: pointer;
+   } 
+   #col1:hover {
+background-color: black;
+transform:scale(1.1);
+transition: 1s;
+   } 
+   #col2:hover {
+    background-color: black;
+    transform:scale(1.1);
+    transition: 1s;
+       }  #col3:hover {
+        background-color: black;
+        transform:scale(1.1);
+        transition: 1s;
+           }  #col4:hover {
+            background-color: black;
+            transform:scale(1.1);
+            transition: 1s;
+               } 
+  
+   #col2{
+background-size: cover;
+cursor: pointer;
+background-image: url(images/img_2.jpg);
+       }  
+       #col3{
+background-size: 100% 100%;
+cursor: pointer;
+background-image: url(images/img_3.jpg);
+cursor: pointer;
+           }
+           #col4{
+background-size: cover;
+cursor: pointer;
+background-image: url(images/img_5.jpg);
+               }
+  
+  .ss:hover.col-lg-3_1_1 
+              {
+                background-color: black;
+               
+            }
+            #bgn1{
+background-image: url(images/sq_img_2.jpg);
+
+            }
+            .form-control {
+              padding: 10px;
+              height: 50px;
+              font-size: 17px;
+              border: 1px dotted gray;
+             
+            }
+            #op{
+overflow: scroll;
+            }
+            #toSelect
+            {
+              padding: 10px;
+              height: 50px;
+              font-size: 17px;
+              border: 1px dotted gray;
+              overflow: scroll;
+
+            }
+            #fromSelect{
+              padding: 10px;
+              height: 50px;
+              font-size: 17px;
+              border: 1px dotted gray;
+
+            }
+         #bgn2{
+          background-image: url(images/sq_img_3.jpg);
+          background-size: cover;
+         }
+         .buns:hover{
+          background-color: red;
+         }
+         #sf:hover{
+        transform: scale(1.1);
+        transition: 1s;
+         cursor: pointer;
+         
+         }
+         #photo{
+          background-image: url(images/person_1.jpg);
+
+         }
+         p::selection{
+          color: red;
+          background-color: white;
+         }
+         h1::selection{
+          color: greenyellow;
+         }
+         li{
+          text-decoration: none;
+          list-style-type: none;
+           
+         }
+       #st{
+        width:100%;
+        height:450px;background-color: whitesmoke;
+       }
+       #input:hover{
+        outline: 2px solid rgb(200, 255, 192);
+       }
+       #message{
+        height:200px ;
+       }
+       #navbar{
+        position: fixed;
+        transition: 1s;
+       }
+       #jan:hover{
+cursor: pointer;
+transform: rotate(360deg);
+transition: 1s;
+       }
